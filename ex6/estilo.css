@@ -1,0 +1,27 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 1em;
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin: 1em;
+}
+p{
+    margin: 1.5em;
+}
+hr{
+    margin-top: -1em;
+    width: 95%;
+}
+.verde {
+    color: green;
+}
+.marron{
+    color: brown;
+}
+.contenido{
+    border-style:solid ;
+    border-color: gray;
+}
