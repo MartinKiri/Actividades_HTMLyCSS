@@ -1,2 +1,2 @@
 # Actividades_HTMLyCSS
-Primeros ejercicios realizados para maquetado
+Primeros ejercicios realizados para maquetado web
