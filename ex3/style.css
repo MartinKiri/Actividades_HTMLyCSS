@@ -1,0 +1,13 @@
+ul{
+    list-style: none;
+}
+li{
+    margin-left: 0;
+}
+.ingredientes{
+    margin-left: -2.5em;
+
+}
+.preparacion{
+    margin-left: -2.5em;
+}
