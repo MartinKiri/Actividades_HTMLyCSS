@@ -1,6 +1,8 @@
 body{
     background-color: darkcyan;
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
 }
 .azul{
     color: blue;
