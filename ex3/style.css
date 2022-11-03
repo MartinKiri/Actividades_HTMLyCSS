@@ -1,3 +1,13 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    margin: 0 0 0 0;
+}
+h1{
+    background-color: coral;
+    margin-top: 0;
+}
 ul{
     list-style: none;
 }
@@ -5,9 +15,12 @@ li{
     margin-left: 0;
 }
 .ingredientes{
-    margin-left: -2.5em;
+    margin-left: 2.5em;
 
 }
 .preparacion{
-    margin-left: -2.5em;
+    margin-left: 2.5em;
+}
+.azul{
+    color: blue;
 }
