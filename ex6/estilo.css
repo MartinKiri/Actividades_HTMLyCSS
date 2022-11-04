@@ -6,8 +6,8 @@ body {
   position: relative;
 }
 img {
-    width: 100%;
-    border-radius: 5%;
+  width: 100%;
+  border-radius: 5%;
 }
 h1 {
   font-size: 5em;
@@ -30,7 +30,7 @@ li {
 }
 li,
 a {
-    font-size: 1.3em;
+  font-size: 1.3em;
   text-decoration: none;
   list-style: none;
 }
@@ -59,11 +59,11 @@ hr {
 .marron {
   color: brown;
 }
-.rojo{
-    background: red;
+.rojo {
+  background:linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(255,255,255,1) 45%);
 }
-.verdebosque{
-    background-color: greenyellow;
+.verdebosque {
+  background: linear-gradient(0deg, rgba(49,255,47,1) 0%, rgba(255,255,255,1) 45%);
 }
 .contenido {
   border-style: solid;
