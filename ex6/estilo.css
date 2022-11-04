@@ -1,27 +1,72 @@
-body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 1em;
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 1em;
+  float: left;
+  position: relative;
 }
-h1{
-    text-align: center;
+img {
+    width: 100%;
+    border-radius: 5%;
 }
-h2{
-    margin: 1em;
+h1 {
+  font-size: 5em;
+  text-align: center;
 }
-p{
-    margin: 1.5em;
+h2,
+h3 {
+  margin: 1em;
+  font-size: 4em;
 }
-hr{
-    margin-top: -1em;
-    width: 95%;
+p {
+  font-size: 1.5em;
+  margin: 1.5em;
+}
+li {
+  margin: 1em;
+  border: 1px solid;
+  text-align: center;
+  padding: 1.5em;
+}
+li,
+a {
+    font-size: 1.3em;
+  text-decoration: none;
+  list-style: none;
+}
+hr {
+  margin-top: -1em;
+  width: 95%;
+}
+#menu {
+  width: 16vw;
+  height: 70vh;
+  float: left;
+}
+#textos {
+  width: 75vw;
+  height: 70vh;
+  float: right;
+}
+#textose {
+  width: 75vw;
+  height: 110vh;
+  float: right;
 }
 .verde {
-    color: green;
+  color: green;
 }
-.marron{
-    color: brown;
+.marron {
+  color: brown;
 }
-.contenido{
-    border-style:solid ;
-    border-color: gray;
+.rojo{
+    background: red;
+}
+.verdebosque{
+    background-color: greenyellow;
+}
+.contenido {
+  border-style: solid;
+  border-color: gray;
+  box-shadow: 0rem 0rem 1rem 0rem inset;
 }
