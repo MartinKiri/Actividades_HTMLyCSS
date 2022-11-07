@@ -1,13 +1,13 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  margin: 1em;
-  float: left;
-  position: relative;
-}
-img {
-  width: 100%;
-  border-radius: 5%;
+  background-color: azure;
+  font-size: 0.8em;
+  width: 900px;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 }
 h1 {
   font-size: 5em;
@@ -16,10 +16,14 @@ h1 {
 h2,
 h3 {
   margin: 1em;
-  font-size: 4em;
+  font-size: 3em;
+}
+h4 {
+  color: aliceblue;
+  text-align: center;
 }
 p {
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin: 1.5em;
 }
 li {
@@ -35,23 +39,28 @@ a {
   list-style: none;
 }
 hr {
-  margin-top: -1em;
-  width: 95%;
+  margin-top: -3em;
+  width: 97%;
 }
 #menu {
-  width: 16vw;
-  height: 70vh;
+  margin-left: -35px;
+  width: 200px;
   float: left;
 }
-#textos {
-  width: 75vw;
-  height: 70vh;
-  float: right;
+.contenido {
+  border-radius: 2%;
+  background-color: white;
+  border-style: solid;
+  border-color: gray;
+  box-shadow: 0rem 0rem 1rem 0rem inset;
 }
-#textose {
-  width: 75vw;
-  height: 110vh;
-  float: right;
+
+.textos {
+  border: 1px solid black;
+  width: 730px;
+  margin-top: 60px;
+  margin-left: 170px;
+  box-shadow: 0rem 0rem 1rem 0rem inset;
 }
 .verde {
   color: green;
@@ -60,13 +69,21 @@ hr {
   color: brown;
 }
 .rojo {
-  background:linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(255,255,255,1) 45%);
+  background: linear-gradient(
+    0deg,
+    rgba(195, 34, 34, 1) 0%,
+    rgba(255, 255, 255, 1) 45%
+  );
 }
 .verdebosque {
-  background: linear-gradient(0deg, rgba(49,255,47,1) 0%, rgba(255,255,255,1) 45%);
+  background: linear-gradient(
+    0deg,
+    rgba(49, 255, 47, 1) 0%,
+    rgba(255, 255, 255, 1) 45%
+  );
 }
-.contenido {
-  border-style: solid;
-  border-color: gray;
-  box-shadow: 0rem 0rem 1rem 0rem inset;
+img {
+  margin-top: 1em;
+  opacity: 0.9;
+  width: 100%;
 }
